@@ -21,4 +21,10 @@ console.log(typeof add);
 console.log(Array.isArray(friendsAge));
 
 // using 'includes' find something in array
-console.log(friendsAge.includes(21));
+console.log(friendsAge.includes(21)); // ans true;
+console.log(friendsAge.includes(20)); // ans false;
+
+// using 'concat' to join more data
+const newOldFriends = [32, 30, 39, 45];
+const newFriends = newOldFriends.concat(friendsAge);
+console.log(newFriends);
