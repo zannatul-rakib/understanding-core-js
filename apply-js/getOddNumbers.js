@@ -1,3 +1,4 @@
+// get odd numbers with array
 const arr = [52, 85, 65, 47, 36, 98, 58, 85, 74, 63, 78];
 
 function getOddSum(numbers) {

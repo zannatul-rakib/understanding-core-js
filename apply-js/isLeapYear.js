@@ -1,11 +1,11 @@
 // simple logic
-// function isLeapYear(year) {
-//   const remainder = year % 4;
-//   if (remainder === 0) {
-//     return true;
-//   }
-//   return false;
-// }
+function isLeapYear(year) {
+  const remainder = year % 4;
+  if (remainder === 0) {
+    return true;
+  }
+  return false;
+}
 
 // actual logic
 function isLeapYear(year) {
